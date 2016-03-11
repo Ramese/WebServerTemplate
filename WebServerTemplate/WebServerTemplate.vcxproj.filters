@@ -16,16 +16,13 @@
     <Filter Include="Source Files\Controllers">
       <UniqueIdentifier>{41106e0a-9cb6-480d-bf5f-7eb5679b522f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{5375bc65-beec-466d-9049-ccf36bea3f84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseController.cpp">
-      <Filter>Source Files\Controllers</Filter>
-    </ClCompile>
-    <ClCompile Include="RootController.cpp">
-      <Filter>Source Files\Controllers</Filter>
     </ClCompile>
     <ClCompile Include="WebServer.cpp">
       <Filter>Source Files</Filter>
@@ -33,22 +30,28 @@
     <ClCompile Include="WebServerRouting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Controllers\BaseController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\RootController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseController.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\BaseController.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="RootController.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\HTTPConstants.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="HTTPConstants.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\RootController.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="WebServer.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\WebServer.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="WebServerRouting.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="include\WebServerRouting.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
