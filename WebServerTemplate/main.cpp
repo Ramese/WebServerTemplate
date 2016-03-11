@@ -22,11 +22,10 @@ class MyRequestHandlerFactory : public HTTPRequestHandlerFactory
 public:
 	virtual HTTPRequestHandler* createRequestHandler(const HTTPServerRequest& request)
 	{
-		return new RootController();
-		/*if (request.getURI() == "/")
-			return new RootHandler();
+		if (request.getURI() == "/")
+			return new RootController();
 		else
-			return new DataHandler();*/
+			return new RootController();
 	}
 };
 
