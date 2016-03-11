@@ -27,12 +27,27 @@
     <ClCompile Include="RootController.cpp">
       <Filter>Source Files\Controllers</Filter>
     </ClCompile>
+    <ClCompile Include="WebServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebServerRouting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RootController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebServerRouting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

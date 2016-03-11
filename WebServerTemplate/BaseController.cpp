@@ -1,4 +1,5 @@
 #include "BaseController.h"
+#include "HTTPConstants.h"
 
 void BaseController::handleRequest(HTTPServerRequest &req, HTTPServerResponse &resp)
 {

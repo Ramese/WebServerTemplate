@@ -1,4 +1,5 @@
 #include "RootController.h"
+#include "HTTPConstants.h"
 
 int RootController::count;
 
@@ -9,7 +10,7 @@ RootController::RootController() {
 void RootController::handleRequest(HTTPServerRequest &req, HTTPServerResponse &resp)
 {
 	resp.setStatus(HTTPResponse::HTTP_OK);
-	resp.setContentType("text/html");
+	resp.setContentType(HTTP_HEADER_CONTENT_TYPE_HTML);
 
 	ostream& out = resp.send();
 	out << "<h1>Hello world!</h1>"

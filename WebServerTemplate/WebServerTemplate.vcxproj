@@ -121,10 +121,15 @@
     <ClCompile Include="BaseController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RootController.cpp" />
+    <ClCompile Include="WebServer.cpp" />
+    <ClCompile Include="WebServerRouting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseController.h" />
+    <ClInclude Include="HTTPConstants.h" />
     <ClInclude Include="RootController.h" />
+    <ClInclude Include="WebServer.h" />
+    <ClInclude Include="WebServerRouting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
